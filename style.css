@@ -1,0 +1,94 @@
+.text-box h3:first-of-type {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box p:nth-of-type(3) {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+.schedule-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+.monday li {
+    background-color: lightblue;
+}
+
+.tuesday li {
+    background-color: lightgreen;
+}
+
+.wednesday li {
+    background-color: lightcoral;
+}
+
+.thursday li {
+    background-color: lightgoldenrodyellow;
+}
+
+.friday li {
+    background-color: lightpink;
+}
+li:hover {
+    background-color: darkgray;
+}
+
+li:active {
+    transform: scale(0.95);
+}
+
+li:focus {
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+
+li:visited {
+    color: purple;
+}
+
+li:target {
+    border: 2px solid red;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+li:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+li:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+li:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
