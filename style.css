@@ -1,4 +1,4 @@
-.text-box h3:first-of-type {
+.pink {
     color: pink;
 }
 
@@ -6,89 +6,95 @@
     color: grey;
 }
 
-.text-box div p {
+.red {
     color: red;
 }
 
-.text-box p:nth-of-type(3) {
+.green {
     color: green;
 }
 
 .yellow {
     color: yellow;
 }
-.schedule-container {
-    display: flex;
-    justify-content: space-around;
+
+.schedule {
     padding: 20px;
+    list-style-type: none;
 }
 
-ul {
+.schedule > li {
+    margin-bottom: 20px;
+}
+
+.schedule ul {
     list-style-type: none;
     padding: 0;
 }
 
-li {
+.schedule .subject {
     padding: 10px;
     margin: 5px 0;
     transition: all 0.3s ease;
 }
-.monday li {
+
+.monday .subject {
     background-color: lightblue;
 }
 
-.tuesday li {
+.tuesday .subject {
     background-color: lightgreen;
 }
 
-.wednesday li {
+.wednesday .subject {
     background-color: lightcoral;
 }
 
-.thursday li {
+.thursday .subject {
     background-color: lightgoldenrodyellow;
 }
 
-.friday li {
+.friday .subject {
     background-color: lightpink;
 }
-li:hover {
+
+.subject:hover {
     background-color: darkgray;
 }
 
-li:active {
+.subject:active {
     transform: scale(0.95);
 }
 
-li:focus {
+.subject:focus {
     outline: 2px solid blue;
     outline-offset: 2px;
 }
 
-li:visited {
+.subject:visited {
     color: purple;
 }
 
-li:target {
+.subject:target {
     border: 2px solid red;
 }
 
-li:first-child {
+.subject:first-child {
     font-weight: bold;
 }
 
-li:last-child {
+.subject:last-child {
     font-style: italic;
 }
 
-li:nth-child(even) {
-    background-color: #f0f0f0;
+.subject:nth-child(even) {
+    background-color: #ff00aa;
 }
 
-li:nth-child(odd) {
-    background-color: #e0e0e0;
+.subject:nth-child(odd) {
+    background-color: #e61010;
 }
 
-li:not(:last-child) {
+.subject:not(:last-child) {
     border-bottom: 1px solid #ccc;
 }
